@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div id="firebaseui-auth-container"></div>
+     <div id="app">
+        <!-- <header>
+    <div class="header_container">
+        <div class="branding">
+        <a href="#">   <img class="ins_ico" src="./icon/instagram.png" alt="" srcset=""></a> 
+             </div>
+             <div class="searchbar">
+               <input class="search" placeholder="Search" type="search" name="" id="">
+             </div>
+             <div class="iconbar">
+                <img class="icon_l" src="./icon/home.svg" alt="" srcset="">
+             
+             <img class="icon_l" src="./icon/explore.svg" alt="" srcset="">
+             
+             <img class="icon_l" src="./icon/plus.svg" alt="" srcset="">
+         
+             <img class="icon_l" src="./icon/message.svg" alt="" srcset="">
+         
+             <img class="icon_l" src="./icon/notification.svg" alt="" srcset="">
+         
+             <img class="icon_lI" src="./assets/profile2.jpg" alt="" srcset=""></div>
+    </div>
+    
+</header> -->
+
+<nav class="navbar">
+    <div class="nav-wrapper">
+        <img class="brand-img" src="./assets/logo (1).png"/>
+        <form class="search-form">
+            <input type="text" class="search-box" placeholder="search..." />
+        </form>
+        <div class="nav-items">
+            <i class="icon fas fa-home"></i>
+            <i class="icon fas fa-plus"></i>
+            <i class="icon fas fa-heart logout"></i>
+            <div class="icon user-profile  auth-user">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<section class="main-container">
+
+<div class="inner-container">
+
+
+
+
+    <div class="left-setion">
+        <div class="story">
+
+            <div class="story-box">
+            
+                <div class="story_l">
+                    <img class="story_image" src="./assets/NOXOLO BOJANA 2.jpg" alt="" srcset="">
+                    <p class="story_H">Gnet_Dot_Com</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/elon mask.jpg" alt="" srcset="">
+                    <p class="story_H">elon_mask</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/safety trailblezas (2).png" alt="" srcset="">
+                    <p class="story_H">trailblezas </p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/lyptus.jpg" alt="" srcset="">
+                    <p class="story_H">lyptus</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/tumcost.jpg" alt="" srcset="">
+                    <p class="story_H">tum_cost</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/house.jpg" alt="" srcset="">
+                    <p class="story_H">property_24</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/amazon.jpg" alt="" srcset="">
+                    <p class="story_H">amazon </p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/lemon.jpg" alt="" srcset="">
+                    <p class="story_H">lemon</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/luno.jpeg" alt="" srcset="">
+                    <p class="story_H">luno</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/audi.jpg" alt="" srcset="">
+                    <p class="story_H">audi</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/zaio 2.jpg" alt="" srcset="">
+                    <p class="story_H">zaio</p>
+                </div>
+                <div class="story_l">
+                    <img class="story_image" src="./assets/freecodecamp.jpg" alt="" srcset="">
+                    <p class="story_H">code_camp</p>
+                </div>
+                
+            </div>
+            <i class='  fas fa-chevron-circle-left icon-style2 nav-left' style='font-size:24px'></i>
+            <i class=' fas fa-chevron-circle-right icon-style1  nav-right' style='font-size:24px'></i>
+            
+        </div>
+            <div class="post-list">
+                 
+                <div class="post">.
+
+                     <div class="p_d">
+                         <div class="p_inner">
+                         <img class="p_p" src="./assets/zaio4.jpg" alt="" srcset="">
+                        <p class="p_name">Zaio_Coding</p>
+                        </div>
+                        <img class="threedots" src="./icon/threedots.svg" alt="" srcset="">
+                     </div>
+                     <div class="p_image">
+                         <img class="pp_full" src="./assets/zaio5.jpg" alt="" srcset="">
+                     </div>
+                     <div class="reaction_icon">
+                        <div class="left_i">
+                            <img src="./icon/notification (1).svg" alt="" srcset="">
+                            <img src="./icon/comment.svg" alt="" srcset="">
+                            <img src="./icon/share.svg" alt="" srcset="">
+                        </div>
+                        <div class="rigts_i">
+                            <img src="./icon/save.svg" alt="" srcset="">
+                        </div>
+                         
+                    
+                    </div>
+                    <div class="comment_section">
+                        
+                        <div class="input_box">
+                            <img src="./icon/emoji.svg" alt="" srcset="">
+                            <input class="inpt_c" placeholder="Add a comment..." type="text" name="" id="">
+                       </div>
+                       <div class="c_txt"><p>Post</p></div>
+                    </div>
+
+                </div>
+             
+                <div class="post">
+
+                    <div class="p_d">
+                        <div class="p_inner">
+                        <img class="p_p" src="./assets/girlcode1.png" alt="" srcset="">
+                       <p class="p_name">Girl_Code</p>
+                       </div>
+                       <img class="threedots" src="./icon/threedots.svg" alt="" srcset="">
+                    </div>
+                    <div class="p_image">
+                        <img class="pp_full" src="./assets/girlcode2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="reaction_icon">
+                       <div class="left_i">
+                           <img src="./icon/notification (1).svg" alt="" srcset="">
+                           <img src="./icon/comment.svg" alt="" srcset="">
+                           <img src="./icon/share.svg" alt="" srcset="">
+                       </div>
+                       <div class="rigts_i">
+                           <img src="./icon/save.svg" alt="" srcset="">
+                       </div>
+                        
+                   
+                   </div>
+                   <div class="comment_section">
+                       
+                       <div class="input_box">
+                           <img src="./icon/emoji.svg" alt="" srcset="">
+                           <input class="inpt_c" placeholder="Add a comment..." type="text" name="" id="">
+                      </div>
+                      <div class="c_txt"><p>Post</p></div>
+                   </div>
+
+               </div>
+         
+               <div class="post">
+
+                <div class="p_d">
+                    <div class="p_inner">
+                    <img class="p_p" src="./assets/chenosis1.jpg" alt="" srcset="">
+                   <p class="p_name">Chenosis</p>
+                   </div>
+                   <img class="threedots" src="./icon/threedots.svg" alt="" srcset="">
+                </div>
+                <div class="p_image">
+                    <img class="pp_full" src="./assets/chenosis2.jpg" alt="" srcset="">
+                </div>
+                <div class="reaction_icon">
+                   <div class="left_i">
+                       <img src="./icon/notification (1).svg" alt="" srcset="">
+                       <img src="./icon/comment.svg" alt="" srcset="">
+                       <img src="./icon/share.svg" alt="" srcset="">
+                   </div>
+                   <div class="rigts_i">
+                       <img src="./icon/save.svg" alt="" srcset="">
+                   </div>
+                    
+               
+               </div>
+               <div class="comment_section">
+                   
+                   <div class="input_box">
+                       <img src="./icon/emoji.svg" alt="" srcset="">
+                       <input class="inpt_c" placeholder="Add a comment..." type="text" name="" id="">
+                  </div>
+                  <div class="c_txt"><p>Post</p></div>
+               </div>
+
+           </div>
+
+            </div>
+        
+    </div>
+        
+
+
+
+        
+    <div class="right-setion" id="right_s" >
+        
+        <div class="profile-section">
+              <img class="p_img" src="./assets/NOXOLO BOJANA.jpg" alt="" srcset="">
+
+              <p class="profiletxt">Noxolo_Bojana</p>
+              <p class="Switchtxt">Switch</p>
+             
+        </div>
+        <div class="suggetion-list">
+       
+            <div class="h_s">
+                <p class="s_hl">Suggestions For You</p>
+                <p class="seeall">See all</p>
+            </div>
+        
+        <div class="s_l">
+            <img class="s_img" src="./assets/hajot.jpg" alt="" srcset="">
+            <div class="s_txt">
+                <p class="name">Harjot Singh </p>
+                <p class="su_txt">Suggested for you</p>
+            </div>
+
+            <p class="fl">Follow</p>
+        </div>
+        <div class="s_l">
+            <img class="s_img" src="./assets/mosh.jpg" alt="" srcset="">
+            <div class="s_txt">
+                <p class="name">Mosh</p>
+                <p class="su_txt">Suggested for you</p>
+            </div>
+
+            <p class="fl">Follow</p>
+        </div>
+        <div class="s_l">
+            <img class="s_img" src="./assets/wethinkcode.jpg" alt="" srcset="">
+            <div class="s_txt">
+                <p class="name">We_Think_Code</p>
+                <p class="su_txt">Suggested for you</p>
+            </div>
+
+            <p class="fl">Follow</p>
+        </div>
+        <div class="s_l">
+            <img class="s_img" src="./assets/takealot.jpg" alt="" srcset="">
+            <div class="s_txt">
+                <p class="name">TakeAlot</p>
+                <p class="su_txt">Suggested for you</p>
+            </div>
+
+            <p class="fl">Follow</p>
+        </div>
+
+        </div>
+
+     </div>
+
+
+</div>
+
+</section>
+
+     </div>
+
+
+
+
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+<script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyCY1RcVSsKcxUoCMC036l5ScyqUf1SyvM8",
+    authDomain: "instagrame-clone-fab85.firebaseapp.com",
+    projectId: "instagrame-clone-fab85",
+    storageBucket: "instagrame-clone-fab85.appspot.com",
+    messagingSenderId: "1029194616546",
+    appId: "1:1029194616546:web:7f3e82b1f4211f159cd8bb"
+  };
+  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+  
+</script>
+<script src="app.js"></script>
+</body>
+</html>
+  
+  
